@@ -14,7 +14,7 @@
 <script>
 import UVIndex from "./uvindex.vue";
 import Visibility from "./visibility.vue";
-import WindStatus from "./windStatus.vue";
+import WindStatus from "./windstatus.vue";
 
 export default {
   props: ["highlights"],
