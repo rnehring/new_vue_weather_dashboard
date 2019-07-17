@@ -19,7 +19,7 @@
            <div class="wrapper-left">
              <div id="current-weather">
                {{ currentWeather.temp }}
-               <span>°C</span>
+               <span>°F</span>
              </div>
              <div id="weather-desc">{{ currentWeather.summary }}</div>
              <div class="temp-max-min">
@@ -27,7 +27,7 @@
                  <div id="max-detail">
                    <i>▲</i>
                    {{ currentWeather.todayHighLow.todayTempHigh }}
-                   <span>°C</span>
+                   <span>°F</span>
                  </div>
                  <div id="max-summary">at {{ currentWeather.todayHighLow.todayTempHighTime }}</div>
                </div>
@@ -35,7 +35,7 @@
                  <div id="min-detail">
                    <i>▼</i>
                    {{ currentWeather.todayHighLow.todayTempLow }}
-                   <span>°C</span>
+                   <span>°F</span>
                  </div>
                  <div id="min-summary">at {{ currentWeather.todayHighLow.todayTempLowTime }}</div>
                </div>
@@ -169,7 +169,8 @@ export default {
      };
    },
    fahToCel: function(tempInFahrenheit) {
-     var tempInCelcius = Math.round((5 / 9) * (tempInFahrenheit - 32));
+    //  var tempInCelcius = Math.round((5 / 9) * (tempInFahrenheit - 32));
+     var tempInCelcius = tempInFahrenheit;
      return tempInCelcius;
    },
    milibarToKiloPascal: function(pressureInMilibar) {
