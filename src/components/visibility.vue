@@ -34,7 +34,7 @@ export default {
          captionFontBold: "0",
          captionFontColor: "#000000",
          baseFont: "Roboto",
-         numberSuffix: " km",
+         numberSuffix: " m",
          lowerLimit: "0",
          upperLimit: "40",
          showPointerShadow: "1",
