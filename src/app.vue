@@ -232,7 +232,7 @@ export default {
    locationEntered: function() {
      var input = this.$refs.input;
      if (input.value === '') {
-       this.location = "New York";
+       this.location = "Battle Creek, MI";
      } else {
        this.location = this.convertToTitleCase(input.value);
      }
