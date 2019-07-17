@@ -179,7 +179,7 @@ export default {
    },
    mileToKilometer: function(miles) {
      var kilometer = miles * 1.60934;
-     return Math.round(kilometer);
+     return Math.round(miles);
    },
    deriveWindDir: function(windDir) {
      var wind_directions_array = [
