@@ -170,7 +170,7 @@ export default {
    },
    fahToCel: function(tempInFahrenheit) {
     //  var tempInCelcius = Math.round((5 / 9) * (tempInFahrenheit - 32));
-     var tempInCelcius = tempInFahrenheit;
+     var tempInCelcius = Math.round(tempInFahrenheit);
      return tempInCelcius;
    },
    milibarToKiloPascal: function(pressureInMilibar) {

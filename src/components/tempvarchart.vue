@@ -32,7 +32,7 @@ export default {
          showHoverEffect: "1",
          theme: "fusion",
          showaxislines: "1",
-         numberSuffix: "°C",
+         numberSuffix: "°F",
          anchorBgColor: "#6297d9",
          paletteColors: "#6297d9",
          drawCrossLine: "1",
